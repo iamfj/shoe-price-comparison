@@ -55,3 +55,6 @@ to delete this data when you shut down the stack you can use the following comma
 ```shell script
 docker-compose -f docker/docker-compose.yml down -v
 ```
+
+### Start using
+Once the stack is started you can use the application at [localhost](http://localhost/).
