@@ -33,7 +33,7 @@ APP_SECRET=1h2u5g19z531zt1938
 ###< symfony/framework-bundle ###
 ```
 
-### Starting
+### Start developing
 When your development system is ready you can start the application stack. To do this you only need to execute the 
 following command: 
 ```shell script
