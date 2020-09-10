@@ -9,4 +9,5 @@
 !/*.lock
 !/*.json
 !/webpack.config.js
+!/tsconfig.json
 !/.env
