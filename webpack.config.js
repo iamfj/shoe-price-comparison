@@ -7,7 +7,7 @@ if (!Encore.isRuntimeEnvironmentConfigured()) {
 module.exports = Encore
   .setOutputPath('public/build/')
   .setPublicPath('/build')
-  .addEntry('app', './assets/js/app.js')
+  .addEntry('frontend', './assets/frontend/js/frontend.ts')
   .enableSassLoader()
   .enableTypeScriptLoader()
   .splitEntryChunks()
