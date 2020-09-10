@@ -31,6 +31,10 @@ MYSQL_ROOT_PASSWORD=r00tp4ss
 APP_ENV=dev
 APP_SECRET=1h2u5g19z531zt1938
 ###< symfony/framework-bundle ###
+
+###> doctrine/doctrine-bundle ###
+DATABASE_URL=mysql://shoeApplicationUser:sup3rS3cr3t@database:3306/shoeDatabase
+###< doctrine/doctrine-bundle ###
 ```
 
 ### Start developing
