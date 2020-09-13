@@ -10,7 +10,7 @@ RUN export APP_ENV=prod \
  # Install symfony for production
  ##
  && composer install --no-dev --optimize-autoloader \
- && php bin/console cache:clear \
+ && php bin/console cache:clear --env=prod --no-debug \
  && php bin/console cache:warmup \
  ##
  # Build assets for production
